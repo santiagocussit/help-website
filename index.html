@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupyter - Ayuda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        :root {
+            --form-element-valid-border-color: #f97316;
+        }
+        
+        body {
+            padding: 2rem 0;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .logo-section img {
+            height: 40px;
+        }
+        
+        .alert-box {
+            background-color: #fef08a;
+            border-left: 4px solid #f97316;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        
+        .alert-box strong {
+            color: #ea580c;
+        }
+        
+        .faq-section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #fafafa;
+            border-radius: 8px;
+            border-left: 4px solid #f97316;
+        }
+        
+        .faq-section strong {
+            color: #ea580c;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        table {
+            width: 100%;
+            margin: 1.5rem 0;
+            border-collapse: collapse;
+        }
+        
+        table th, table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        table th {
+            background-color: #f97316;
+            color: white;
+            font-weight: bold;
+        }
+        
+        table tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+        
+        a {
+            color: #f97316;
+        }
+        
+        a:hover {
+            color: #ea580c;
+        }
+        
+        .section-title {
+            color: #ea580c;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f97316;
+            padding-bottom: 0.5rem;
+        }
+        
+        .badge {
+            display: inline-block;
+            background-color: #f97316;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-section">
+            <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Rectangle%20Logo/rectanglelogo-greytext-orangebody-greymoons/rectanglelogo-greytext-orangebody-greymoons.png" alt="Jupyter">
+            <h1>Ayuda</h1>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="alert-box">
+            <strong>⚠️ ¡Necesitas ayuda o tienes preguntas?</strong>
+            <p><a href="https://discourse.jupyter.org">Por favor, visita nuestra página Discourse y haz preguntas a la comunidad</a></p>
+            <p><strong>Estamos deprecando este repositorio. Por favor, visita nuestra <a href="https://discourse.jupyter.org">página Discourse</a> para obtener ayuda.</strong></p>
+        </div>
+        
+        <section>
+            <h2 class="section-title">Por favor, pregunta</h2>
+            <p>Animamos las preguntas. Valoramos ser acogedores y corteses.</p>
+            
+            <div class="faq-section">
+                <strong>❓ No sé dónde hacer mi pregunta. Podría estar relacionada con otra cosa, pero no estoy seguro. ¿Qué debo hacer?</strong>
+                <ul>
+                    <li>Abre un issue en este proyecto. Este es un espacio seguro y respetuoso para hacer preguntas y abrir issues. 😊</li>
+                </ul>
+            </div>
+            
+            <div class="faq-section">
+                <strong>❓ Nunca he abierto un issue. ¿Cómo lo hago?</strong>
+                <ul>
+                    <li>Haz clic en la pestaña <code>Issues</code> en la parte superior de la página, luego haz clic en el botón verde <code>New Issue</code>. Haz tu pregunta en los campos de título y comentario, luego haz clic en <code>Submit new issue</code>. ¡Felicidades, enviaste tu pregunta! Intentaremos responderte pronto. Consejo: Si proporcionas información útil (como sistema operativo, versiones, etc.), es más fácil para nosotros entender tu pregunta.</li>
+                </ul>
+            </div>
+            
+            <div class="faq-section">
+                <strong>🇫🇷 Je ne parle pas Anglais (No hablo inglés)</strong>
+                <ul>
+                    <li>Pas de problème, on a des francophones (Sin problema, ¡también hablamos francés!)</li>
+                </ul>
+            </div>
+            
+            <div class="faq-section">
+                <strong>🇪🇸 Pero no hablo Inglés</strong>
+                <ul>
+                    <li>No te preocupes, ¡también hablamos Español!</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Reportar un bug en un proyecto Jupyter</h2>
+            <p>Si crees que has encontrado un bug en un proyecto específico de Jupyter o IPython, por favor repórtalo en el repositorio del proyecto individual. Estos enlaces te llevan a la página de issues del proyecto:</p>
+            
+            <h3>Proyectos Populares de Jupyter e IPython</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Proyectos Populares de Jupyter</th>
+                        <th>Proyectos IPython</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/notebook/issues/new">Notebook</a></td>
+                        <td><a href="https://github.com/ipython/ipykernel/issues/new">ipykernel</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/jupyterhub/issues/new">JupyterHub</a></td>
+                        <td><a href="https://github.com/ipython/ipyparallel/issues/new">ipyparallel</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/jupyter_client/issues/new">jupyter_client</a></td>
+                        <td><a href="https://github.com/ipython/ipython/issues/new">IPython</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/jupyter_console/issues/new">jupyter_console</a></td>
+                        <td><a href="https://github.com/ipython/ipywidgets/issues/new">ipywidgets</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/jupyter_core/issues/new">jupyter_core</a></td>
+                        <td><a href="https://github.com/ipython/traitlets/issues/new">traitlets</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/nbconvert/issues/new">nbconvert</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/nbgrader/issues/new">nbgrader</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/qtconsole/issues/new">qtconsole</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Más Proyectos de Jupyter</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">Proyectos Adicionales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/colaboratory/issues/new">colaboratory</a></td>
+                        <td><a href="https://github.com/jupyter/configurable-http-proxy/issues/new">configurable-http-proxy</a></td>
+                        <td><a href="https://github.com/jupyter/docker-stacks/issues/new">docker-stacks</a></td>
+                        <td><a href="https://github.com/jupyter/dockerspawner/issues/new">dockerspawner</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/jupyter-drive/issues/new">jupyter-drive</a></td>
+                        <td><a href="https://github.com/jupyter/jupyter-js-notebook/issues/new">jupyter-js-notebook</a></td>
+                        <td><a href="https://github.com/jupyter/jupyter-js-phosphide/issues/new">jupyter-js-phosphide</a></td>
+                        <td><a href="https://github.com/jupyter/jupyter-js-plugins/issues/new">jupyter-js-plugins</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/jupyter-js-services/issues/new">jupyter-js-services</a></td>
+                        <td><a href="https://github.com/jupyter/jupyter-js-ui/issues/new">jupyter-js-ui</a></td>
+                        <td><a href="https://github.com/jupyter/jupyter-js-utils/issues/new">jupyter-js-utils</a></td>
+                        <td><a href="https://github.com/jupyter/jupyter-sphinx-theme/issues/new">jupyter-sphinx-theme</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/kernel_gateway/issues/new">kernel_gateway</a></td>
+                        <td><a href="https://github.com/jupyter/ldapauthenticator/issues/new">ldapauthenticator</a></td>
+                        <td><a href="https://github.com/jupyter/nbformat/issues/new">nbformat</a></td>
+                        <td><a href="https://github.com/jupyter/nbviewer/issues/new">nbviewer</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/jupyter/oauthenticator/issues/new">oauthenticator</a></td>
+                        <td><a href="https://github.com/jupyter/sudospawner/issues/new">sudospawner</a></td>
+                        <td><a href="https://github.com/jupyter/tmpnb/issues/new">tmpnb</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Ayuda para Contribuir</h2>
+            <p>Nuestra <a href="CONTRIBUTING.md">página de Ayuda para Contribuir</a> es un buen lugar para comenzar.</p>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Ayudantes Técnicos de la Comunidad</h2>
+            <p>¿Eres un miembro de la comunidad que disfruta compartiendo tus conocimientos y ayudando a otros a resolver problemas? Te animamos a responder a estos issues.</p>
+            <p>Si deseas estar más involucrado y ayudar a clasificar issues, por favor solicita privilegios para agregar etiquetas y administrar este repositorio.</p>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Otros Recursos de Ayuda y Soporte</h2>
+            <p>Para preguntas sobre mejoras del <a href="https://jupyter.org">Proyecto Jupyter</a>, por favor visita nuestro Grupo de Google:</p>
+            <p><a href="https://groups.google.com/forum/#!forum/jupyter" class="badge">Ir al Grupo de Google</a></p>
+            <p>Para preguntas de configuración muy específicas, también puedes consultar Stack Overflow para ver si otros usuarios han publicado comentarios sobre tu configuración.</p>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Versión en Coreano del Proyecto Jupyter</h2>
+            <p><a href="https://github.com/ChungJooHo/Jupyter_Kor_doc/">Versión en Coreano de la Instalación</a></p>
+        </section>
+    </main>
+</body>
+</html>
