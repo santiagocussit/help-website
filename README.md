@@ -4,48 +4,10 @@
  
 Una versión HTML moderna y elegante de la página de Ayuda oficial de Jupyter, convertida desde Markdown y estilizada con **pico.css**.
  
-<div style="display: flex; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
-  <svg width="140" height="28" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect width="140" height="28" fill="url(#grad1)" rx="4"/>
-    <text x="70" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Version 1.0</text>
-  </svg>
-  <svg width="140" height="28" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect width="140" height="28" fill="url(#grad2)" rx="4"/>
-    <text x="70" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">✓ Active</text>
-  </svg>
-  <svg width="140" height="28" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect width="140" height="28" fill="url(#grad3)" rx="4"/>
-    <text x="70" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">MIT License</text>
-  </svg>
-  <svg width="140" height="28" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect width="140" height="28" fill="url(#grad4)" rx="4"/>
-    <text x="70" y="19" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">pico.css</text>
-  </svg>
-</div>
+[![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![pico.css](https://img.shields.io/badge/pico.css-Framework-6366f1?style=for-the-badge&logo=css3&logoColor=white)](https://picocss.com)
+
 ## 📋 Descripción
  
 Esta página proporciona una interfaz limpia y responsiva para acceder a los recursos de ayuda y soporte de la comunidad Jupyter. Incluye:
